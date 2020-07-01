@@ -207,7 +207,7 @@ public class Point3D {
 	 * Returns the result of multiplication by the given 4x4 matrix thus
 	 * applying the transformation contained within
 	 * 
-	 * @param m
+	 * @param mat
 	 *            4x4 matrix
 	 * @return new Point3D instance
 	 */

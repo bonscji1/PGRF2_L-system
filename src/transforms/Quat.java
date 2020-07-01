@@ -283,7 +283,7 @@ public class Quat {
 	 * Creates a new quaternion equivalent to the rotation given by 
 	 * the 4x4 transformation matrix
 	 * 
-	 * @param m
+	 * @param mat
 	 *            4x4 matrix
 	 * @return new Quat instance
 	 */

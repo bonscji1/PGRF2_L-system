@@ -175,7 +175,6 @@ public class OGLTextRenderer {
 	/**
 	 * Draw string on 2D coordinates of the raster frame
 	 * 
-	 * @param gl
 	 * @param x
 	 *            x position of string in range <0, width-1> of raster frame
 	 * @param y

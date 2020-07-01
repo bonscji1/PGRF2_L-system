@@ -40,8 +40,6 @@ public final class ShaderUtils {
 	/**
 	 * Load, create, compile, attach and link shader sources defined as files
 	 * 
-	 * @param gl
-	 *            GL context
 	 * @param vertexShaderFileName
 	 *            full path name of vertex shader file with/without file
 	 *            extension (VERTEX_SHADER_EXTENSION) or null
@@ -81,8 +79,6 @@ public final class ShaderUtils {
 	/**
 	 * Load, create, compile, attach and link shader sources defined as files
 	 * 
-	 * @param gl
-	 *            GL context
 	 * @param vertexShaderFileName
 	 *            full path name of vertex shader file with/without file
 	 *            extension (VERTEX_SHADER_EXTENSION) or null
@@ -114,8 +110,6 @@ public final class ShaderUtils {
 	/**
 	 * Load, create, compile, attach and link shader sources defined as files
 	 * 
-	 * @param gl
-	 *            GL context
 	 * @param shaderFileName
 	 *            full path name of shader file without file extension
 	 * @return new id of shader program
@@ -127,8 +121,6 @@ public final class ShaderUtils {
 	/**
 	 * Load, create, compile, attach and link shader sources defined as files
 	 * 
-	 * @param gl
-	 *            GL context
 	 * @param shaderFileName
 	 *            full path name of shader file without file extension
 	 * @param functionBeforeLinking
@@ -146,8 +138,6 @@ public final class ShaderUtils {
 	/**
 	 * Load, create, compile, attach and link shader sources defined as files
 	 * 
-	 * @param gl
-	 *            GL context
 	 * @param shaderFileNames
 	 *            array of full path name of shader files with/without file
 	 *            extension in order vertex, fragment, geometry, control,
@@ -162,8 +152,6 @@ public final class ShaderUtils {
 	/**
 	 * Load, create, compile, attach and link shader sources defined as files
 	 * 
-	 * @param gl
-	 *            GL context
 	 * @param shaderFileNames
 	 *            array of full path name of shader files with/without file
 	 *            extension in order vertex, fragment, geometry, control,
@@ -205,8 +193,6 @@ public final class ShaderUtils {
 	 * Load, create, compile, attach and link shader sources defined as arrays
 	 * of Strings
 	 * 
-	 * @param gl
-	 *            GL context
 	 * @param vertexShaderSrc
 	 *            array of Strings with GLSL code for vertex shader or null
 	 * @param fragmentShaderSrc
@@ -242,8 +228,6 @@ public final class ShaderUtils {
 	 * Load, create, compile, attach and link shader sources defined as arrays
 	 * of Strings
 	 * 
-	 * @param gl
-	 *            GL context
 	 * @param vertexShaderSrc
 	 *            array of Strings with GLSL code for vertex shader or null
 	 * @param fragmentShaderSrc
@@ -270,8 +254,6 @@ public final class ShaderUtils {
 	 * Load, create, compile, attach and link shader sources defined as arrays
 	 * of Strings
 	 * 
-	 * @param gl
-	 *            GL context
 	 * @param shaderSrcArray
 	 *            array of arrays of Strings with GLSL codes for shaders in
 	 *            order vertex, fragment, geometry, control, evaluation and
@@ -286,8 +268,6 @@ public final class ShaderUtils {
 	 * Load, create, compile, attach and link shader sources defined as arrays
 	 * of Strings
 	 * 
-	 * @param gl
-	 *            GL context
 	 * @param shaderSrcArray
 	 *            array of arrays of Strings with GLSL codes for shaders in
 	 *            order vertex, fragment, geometry, control, evaluation and
@@ -417,8 +397,6 @@ public final class ShaderUtils {
 	 * Create shader and define source as array of Strings. At the end of a
 	 * String of code line is char \n added. Chars after // are deleted.
 	 * 
-	 * @param gl
-	 *            GL context
 	 * @param shaderSrc
 	 *            array of Strings with GLSL shader code
 	 * @param type
@@ -452,8 +430,6 @@ public final class ShaderUtils {
 	/**
 	 * Compile shader
 	 * 
-	 * @param gl
-	 *            GL context
 	 * @param shader
 	 *            id of shader
 	 * @return new id of shader
@@ -478,10 +454,6 @@ public final class ShaderUtils {
 	/**
 	 * Link shader program
 	 * 
-	 * @param gl
-	 *            GL context
-	 * @param shader
-	 *            id of shader program
 	 * @return new id of shader program
 	 */
 	static public boolean linkProgram(int shaderProgram) {

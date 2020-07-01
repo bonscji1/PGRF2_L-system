@@ -173,7 +173,7 @@ public class Point2D {
 	 * Returns the result of multiplication by the given 3x3 matrix thus
 	 * applying the transformation contained within
 	 * 
-	 * @param m
+	 * @param mat
 	 *            3x3 matrix
 	 * @return new Point2D instance
 	 */
